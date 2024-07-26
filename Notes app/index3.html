@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="shortcut icon" href="images\unnamed.png" type="image/x-icon">
+    <link rel="stylesheet" href="style3.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1><img src="images\notes.png" alt="">Notes</h1>
+        <button id="button"><img src="images\edit.png" alt="">Add Note</button>
+        <div class="notes-container">
+            <!-- <p contenteditable="true" class="input-box">
+                <img src="images\delete.png">
+            </p> -->
+        </div>
+    </div>
+    <script src="js_3.js"></script>
+</body>
+
+</html>
+<!-- <p contenteditable="true" class="input-box"></p> -->
+
+<!-- program to add html -->
+<!-- createButton.addEventListener("click",()=>{
+    let inputBox=document.createElement("p");
+    let img=document.createElement("img");
+    inputBox.className="input-box";
+    inputBox.setAttribute("contenteditable","true");
+    img.src="images/delete.png";
+    noteContainer.appendChild(inputBox).appendChild(img);
+}) -->
+
+<!-- program to delete a item by clicking on img -->
+
+<!-- noteContainer.addEventListener("click",function(e){
+    if(e.target.tagName==="IMG"){
+        e.target.parentElement.remove();
+    }
+}) -->
+
+<!-- program to store the data enter in paragraph box -->
+
+<!-- function updateStorage(){
+    localStorage.setItem("notes",noteContainer.innerHTML)
+} -->
+
+<!-- program to update the previous data when website is loaded -->
+
+<!-- function showNotes(){
+    noteContainer.innerHTML=localStorage.getItem("notes");
+} -->
+ <!-- program to remove the paragraph box and update the localStorage -->
+
+ <!--   noteContainer.addEventListener("click",function(e){
+    if(e.target.tagName==="IMG"){
+        e.target.parentElement.remove();
+        updateStorage() -->
+
+<!-- in else condition program to save each line typed in the box and update the storage -->
+
+<!-- else if(e.target.tagName=="p"){
+    notes=document.querySelectorAll(".input-box");
+    notes.forEach(nt=>{
+        nt.onkeyup=function(){
+            updateStorage(); -->
