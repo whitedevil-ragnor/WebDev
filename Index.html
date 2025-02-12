@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <title>Portfolio - Rudra Narayan Rath</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#tech-stack">Tech-Stack</a></li>
+            <li><a href="#coding-profile">Coding Profile</a></li>
+            <li><a href="files/Rudra_Narayan_Rath_CV.pdf" class="resume-download" download>Resume</a></li> <!-- Moved to the end of the list -->
+        </ul>
+    </nav>
+    
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2 class="about-title">About Me</h2>
+        <div class="about-container">
+            <div class="circle">
+                <img src="images/my-image.jpg" alt="Your Image" class="profile-image">
+            </div>
+            <p class="name">Rudra Narayan Rath</p>
+            <div class="rectangle">
+                <img src="images/my-dev-certifiacte.png" alt="Certificate" class="certificate-image">
+            </div>
+            <p class="certificate-title">Certified Android Developer</p>
+            
+            <!-- Resume download link -->
+        </div>
+    </section>
+    
+
+    <!-- Signature Projects Section -->
+    <section id="projects">
+        <h2 class="projects-title">Signature Projects</h2>
+        <div class="projects-container">
+            <div class="projects-list">
+                <!-- Project 1 -->
+                <div class="project">
+                    <h3>Recipe App</h3>
+                    <iframe src="https://www.youtube.com/embed/3Alg5pSao1g?si=mfOkrxTJORDUuVZ2"
+                        allowfullscreen></iframe>
+                    <p><a href="https://github.com/whitedevil-ragnor/Demo/tree/Android-Kotlin-Jetpack/CountingApp"
+                            target="_blank">View on GitHub</a></p>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project">
+                    <h3>Project Title 2</h3>
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" allowfullscreen></iframe>
+                    <p><a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a></p>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project">
+                    <h3>Project Title 3</h3>
+                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
+                    <p><a href="https://github.com/yourusername/project3" target="_blank">View on GitHub</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack">
+        <h2 class="projects-title">Tech Stack</h2>
+        <div class="tech-stack-container">
+            <div class="tech-stack-item">
+                <img src="images/kotlin-logo-removebg-preview.png" alt="Kotlin Logo">
+                <p>Kotlin</p>
+            </div>
+            <div class="tech-stack-item">
+                <img src="images/Java-logo-removebg-preview.png" alt="Jetpack Compose Logo">
+                <p>Java</p>
+            </div>
+            <div class="tech-stack-item">
+                <img src="images/javascript-logo.png" alt="Kotlin Logo">
+                <p>JavaScript</p>
+            </div>
+            <div class="tech-stack-item">
+                <img src="images/C_Logo.png" alt="Jetpack Compose Logo">
+                <p>C Lang</p>
+            </div>
+            <div class="tech-stack-item">
+                <img src="images/jetpack-compose-logo.png" alt="Jetpack Compose Logo">
+                <p>Jetpack Compose</p>
+            </div>
+            <div class="tech-stack-item">
+                <img src="images/HTML5_logo.png" alt="Jetpack Compose Logo">
+                <p>HTML5</p>
+            </div>
+            <div class="tech-stack-item">
+                <img src="images/css.png" alt="Jetpack Compose Logo">
+                <p>CSS</p>
+            </div>
+            <div class="tech-stack-item">
+                <img src="images/github-logo.png" alt="Jetpack Compose Logo">
+                <p>GitHub</p>
+            </div>
+            <div class="tech-stack-item">
+                <img src="images/Android-Studio-logo.png" alt="Jetpack Compose Logo">
+                <p>Android Studio</p>
+            </div>
+            <div class="tech-stack-item">
+                <img src="images/Visual_Studio_Code.png" alt="Jetpack Compose Logo">
+                <p>VS Code</p>
+            </div>
+            <div class="tech-stack-item">
+                <img src="images/intej-idea-logo.jpeg" alt="Jetpack Compose Logo">
+                <p>IntelliJ IDEA</p>
+            </div>
+            <!-- Add more tech stack items as needed -->
+        </div>
+    </section>
+
+    <!-- Coding Profile Section -->
+<section id="coding-profile">
+    <h2 class="projects-title">Coding Profile</h2>
+    <div class="coding-profile-container">
+        <div class="profile-container">
+            <h3 class="projects-title">LeetCode Profile</h3>
+            <div class="leetcode-details-container">
+                <div class="leetcode-details">
+                    <p>Username: <span id="leetcode-username">R2024</span></p>
+                    <p>Problems Solved: <span id="leetcode-problems-solved"></span></p>
+                    <p>Easy Problems Solved: <span id="leetcode-easy-solved"></span></p>
+                    <p>Medium Problems Solved: <span id="leetcode-medium-solved"></span></p>
+                    <p>Hard Problems Solved: <span id="leetcode-hard-solved"></span></p>
+                    <p>Ranking: <span id="leetcode-ranking"></span></p>
+                    <p>Contribution Points: <span id="leetcode-contribution-points"></span></p>
+                </div>
+                <div class="leetcode-image">
+                    <img src="images/LeetCode_Logo.png" alt="LeetCode Logo" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Achievements and Badges -->
+        <div class="achievements-container">
+            <h3 class="projects-title">Achievements and Badges</h3>
+
+            <!-- Scrollable Badges Container -->
+            <div class="badges-scrollable-container">
+                <div class="badge-item">
+                    <img src="images/badge-1.png" alt="Badge 1" />
+                    <p class="badge-name">Top 4.8%</p>
+                </div>
+                <div class="badge-item">
+                    <img src="images/badge-50.png" alt="Badge 2" />
+                    <p class="badge-name">Top 6.9%</p>
+                </div>
+                <div class="badge-item">
+                    <img src="images/java4star badge.png" alt="Badge 3" />
+                    <p class="badge-name">HackerRank Java 4 Star</p>
+                </div>
+            </div>
+
+            <!-- Scrollable Certificates Container -->
+            <div class="certificates-scrollable-container">
+                <div class="certificate-item">
+                    <img src="images/MERIT_IIT_BBSR_CERTIFICATE.jpg" alt="Certificate 1" />
+                    <p class="certificate-name">Entrepreneurship Summit</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="images/4star_JAva.png" alt="Certificate 2" />
+                    <p class="certificate-name">Java Certification</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="images/participaion.jpg" alt="Certificate 3" />
+                    <p class="certificate-name">Innovate and Inspire</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="images/participaion.jpg" alt="Certificate 3" />
+                    <p class="certificate-name">Innovate and Inspire</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="images/participaion.jpg" alt="Certificate 3" />
+                    <p class="certificate-name">Innovate and Inspire</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<h1>hii</h1>
+
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="social-media">
+                <h3>Connect with me:</h3>
+                <a href="https://github.com/your-profile" target="_blank">
+                    <img src="images/github-logo.png" alt="GitHub" class="social-icon">
+                </a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank">
+                    <img src="images/linkedin.png" alt="LinkedIn" class="social-icon">
+                </a>
+                <a href="https://twitter.com/your-profile" target="_blank">
+                    <img src="images/twitter.png" alt="Twitter" class="social-icon">
+                </a>
+                <!-- Add more social media links as needed -->
+            </div>
+            <div class="feedback-form">
+                <h3>Feedback</h3>
+                <form id="feedback" action="your-feedback-endpoint" method="post" class="feedback">
+                    <textarea name="message" placeholder="Your feedback..." required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
